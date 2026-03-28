@@ -42,7 +42,7 @@ jobs:
         with:
           context: ./app
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: latest
 
   deploy:
     name: Azure Web App Deployment
